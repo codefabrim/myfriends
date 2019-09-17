@@ -6,6 +6,7 @@ public class Message {
     public Message(String content) {
         this.content = content;
     }
+   public Message() {}
 
     public String getContent() {
         return content;
